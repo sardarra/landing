@@ -10,25 +10,30 @@ const projects = [
       "An innovative productivity tool that helps you stay focused and productive. Built with React and modern web technologies.",
     tech: ["React", "JavaScript", "Firebase"],
     featured: true,
-    link: "https://enfokadoapp.web.app",
+    link: "https://enfokado.vercel.app",
+    github: "https://github.com/sardarra/Enfokado",
   },
   {
     title: "PassPath",
     description: "A mobile app that allows immigrants to study for the U.S. Citizenship test.",
     tech: ["React Native", "JavaScript", "Firebase"],
-    link: "#",
+    link: "https://youtu.be/5vGamu0xJ24",
+    github: "https://github.com/sardarra/citizen",
   },
   {
     title: "Enfocalendar",
     description: "A calendar app that helps you stay organized and on top of your tasks.",
     tech: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
-    link: "#",
+    link: "https://www.enfocalendar.com",
+    github: "https://github.com/sardarra/Enfocalendar",
   },
   {
     title: "MassPath",
     description: "A calorie counter designed for UMass Amherst students that allows them to track their calories and macros of foods available at UMass Dining Halls.",
     tech: ["React", "JavaScript", "Flask", "Python"],
-    link: "#",
+    link: "https://github.com/chauvihue/mass_path",
+    github: "https://github.com/chauvihue/mass_path",
+    
   }
 ]
 
@@ -58,7 +63,9 @@ export function Projects() {
                 ))}
               </div>
               <div className="flex gap-3">
-                <Button size="sm" variant="default">
+                <Button size="sm" variant="default" onClick={() => {
+                  window.location.href = featured.link
+                }}>
                   <ExternalLink className="size-4 mr-2" />
                   View Project
                 </Button>
@@ -88,7 +95,9 @@ export function Projects() {
                 ))}
               </div>
               <div className="flex gap-2">
-                <Button size="sm" variant="ghost" className="text-xs">
+                <Button size="sm" variant="ghost" className="text-xs" onClick={() => {
+                  window.location.href = project.link
+                }}>
                   <ExternalLink className="size-3 mr-1" />
                   View
                 </Button>
