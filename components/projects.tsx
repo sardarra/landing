@@ -69,9 +69,11 @@ export function Projects() {
                   <ExternalLink className="size-4 mr-2" />
                   View Project
                 </Button>
-                <Button size="sm" variant="outline">
+                <Button size="sm" variant="outline" onClick={() => {
+                  window.location.href = featured.github
+                }}>
                   <Github className="size-4 mr-2" />
-                  GitHub
+                  Code
                 </Button>
               </div>
             </div>
@@ -101,7 +103,9 @@ export function Projects() {
                   <ExternalLink className="size-3 mr-1" />
                   View
                 </Button>
-                <Button size="sm" variant="ghost" className="text-xs">
+                <Button size="sm" variant="ghost" className="text-xs" onClick={() => {
+                  window.location.href = project.github
+                }}>
                   <Github className="size-3 mr-1" />
                   Code
                 </Button>
