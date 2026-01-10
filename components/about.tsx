@@ -2,9 +2,9 @@
 
 export function About() {
   return (
-    <section id="about" className="py-24 px-6 bg-card/50">
+    <section id="about" className="py-24 px-6 bg-card/50" aria-labelledby="about-heading">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12">About Me</h2>
+        <h2 id="about-heading" className="text-4xl font-bold mb-12">About Me</h2>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6 animate-fade-in">

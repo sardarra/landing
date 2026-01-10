@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navigation isDark={isDark} onThemeToggle={toggleTheme} />
-      <main>
+      <main role="main">
         <Hero />
         <About />
         <Projects />

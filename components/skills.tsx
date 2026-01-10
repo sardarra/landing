@@ -22,9 +22,9 @@ const skillCategories = [
 
 export function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 bg-card/50">
+    <section id="skills" className="py-24 px-6 bg-card/50" aria-labelledby="skills-heading">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12">Skills & Technologies</h2>
+        <h2 id="skills-heading" className="text-4xl font-bold mb-12">Skills & Technologies</h2>
 
         <div className="grid md:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => {

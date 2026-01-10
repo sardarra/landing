@@ -5,14 +5,14 @@ import { ArrowDown } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden" aria-labelledby="hero-heading">
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-5xl mx-auto text-center animate-fade-in-up">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        <h1 id="hero-heading" className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Sardar</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-light text-muted-foreground mb-6">
@@ -30,17 +30,13 @@ export function Hero() {
             onClick={() => {
               document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
             }}
+            aria-label="Scroll to projects section"
           >
             View My Projects
           </Button>
-          <Button size="lg" variant="outline" className="px-8 bg-transparent" asChild>
-            <a href="/resume.docx" download>
-              Download Resume
-            </a>
-          </Button>
         </div>
 
-        <div className="animate-bounce">
+        <div className="animate-bounce" aria-hidden="true">
           <ArrowDown className="size-6 mx-auto text-muted-foreground" />
         </div>
       </div>

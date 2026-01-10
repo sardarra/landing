@@ -87,7 +87,9 @@ __turbopack_context__.s([
     "default",
     ()=>RootLayout,
     "metadata",
-    ()=>metadata
+    ()=>metadata,
+    "viewport",
+    ()=>viewport
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@vercel/analytics/dist/next/index.mjs [app-rsc] (ecmascript)");
@@ -101,9 +103,83 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$s
 ;
 ;
 const metadata = {
-    title: "Sardar — Computer Science & AI Developer",
-    description: "Portfolio showcasing AI projects, React applications, and innovative software solutions. CS student at UMass Amherst.",
-    generator: "v0.app",
+    title: {
+        default: "Sardar — Computer Science & AI Developer",
+        template: "%s | Sardar — Portfolio"
+    },
+    description: "Portfolio showcasing AI projects, React applications, and innovative software solutions. Computer Science student at UMass Amherst passionate about machine learning, full-stack development, and robotics.",
+    keywords: [
+        "Sardar",
+        "Computer Science",
+        "AI Developer",
+        "React Developer",
+        "Machine Learning",
+        "Full Stack Developer",
+        "UMass Amherst",
+        "Portfolio",
+        "Web Development",
+        "JavaScript",
+        "TypeScript",
+        "React Native",
+        "Robotics",
+        "Software Engineer",
+        "Frontend Developer"
+    ],
+    authors: [
+        {
+            name: "Sardar"
+        }
+    ],
+    creator: "Sardar",
+    publisher: "Sardar",
+    formatDetection: {
+        email: false,
+        address: false,
+        telephone: false
+    },
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://landing-ecru-phi.vercel.app"),
+    alternates: {
+        canonical: "/"
+    },
+    openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "/",
+        siteName: "Sardar — Portfolio",
+        title: "Sardar — Computer Science & AI Developer",
+        description: "Portfolio showcasing AI projects, React applications, and innovative software solutions. CS student at UMass Amherst.",
+        images: [
+            {
+                url: "/placeholder.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Sardar — Portfolio"
+            }
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Sardar — Computer Science & AI Developer",
+        description: "Portfolio showcasing AI projects, React applications, and innovative software solutions. CS student at UMass Amherst.",
+        images: [
+            "/placeholder.jpg"
+        ],
+        creator: "@sardarra"
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1
+        }
+    },
+    verification: {
+    },
+    generator: "Next.js",
     icons: {
         icon: [
             {
@@ -120,29 +196,89 @@ const metadata = {
             }
         ],
         apple: "/apple-icon.png"
-    }
+    },
+    manifest: "/manifest.json"
+};
+const viewport = {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5
 };
 function RootLayout({ children }) {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Sardar",
+        jobTitle: "Computer Science Student & AI Developer",
+        url: process.env.NEXT_PUBLIC_SITE_URL || "https://landing-ecru-phi.vercel.app",
+        sameAs: [
+            "https://github.com/sardarra",
+            "https://www.linkedin.com/in/sardar-rahman-16b564336/"
+        ],
+        knowsAbout: [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "React",
+            "JavaScript",
+            "TypeScript",
+            "Full Stack Development",
+            "Robotics",
+            "Web Development"
+        ],
+        alumniOf: {
+            "@type": "CollegeOrUniversity",
+            name: "University of Massachusetts Amherst"
+        },
+        description: "Computer Science student at UMass Amherst passionate about AI, React, and creating impactful digital experiences."
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-            className: `font-sans antialiased`,
-            children: [
-                children,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
-                    fileName: "[project]/app/layout.tsx",
-                    lineNumber: 46,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/layout.tsx",
-            lineNumber: 44,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1, maximum-scale=5"
+                    }, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 154,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                        type: "application/ld+json",
+                        dangerouslySetInnerHTML: {
+                            __html: JSON.stringify(jsonLd)
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 155,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/layout.tsx",
+                lineNumber: 153,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+                className: `font-sans antialiased`,
+                children: [
+                    children,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 162,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/layout.tsx",
+                lineNumber: 160,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 43,
+        lineNumber: 152,
         columnNumber: 5
     }, this);
 }
