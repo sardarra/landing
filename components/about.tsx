@@ -9,15 +9,10 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6 animate-fade-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a Computer Science student at UMass Amherst with a deep passion for artificial intelligence, modern
-              web development, and building tools that make a difference.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              My interests span machine learning, robotics, and full-stack development. 
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Beyond coding, I enjoy mentoring other developers, exploring new technologies, and contributing to
-              open-source projects that push the boundaries of what's possible.
+            I'm a CS student at UMass Amherst, where I'm part of the Honors College and maintaining a 4.0 GPA. My focus is full-stack development and applied AI — I like working across the whole stack, from designing schemas and REST APIs to building polished React interfaces.
+            <br />
+            <br />
+I've shipped projects at hackathons, taught programming to kids, and spent a lot of time thinking about how software can be genuinely useful. Outside of code, I'm involved with SASE, HackUMass, and UMass Robotics.
             </p>
           </div>
 

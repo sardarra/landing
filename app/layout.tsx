@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     "Software Engineer",
     "Frontend Developer",
   ],
-  authors: [{ name: "Sardar" }],
-  creator: "Sardar",
-  publisher: "Sardar",
+  authors: [{ name: "Sardar Rahman" }],
+  creator: "Sardar Rahman",
+  publisher: "Sardar Rahman",
   formatDetection: {
     email: false,
     address: false,
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "Sardar — Portfolio",
-    title: "Sardar — Computer Science & AI Developer",
+    siteName: "Sardar Rahman — Portfolio",
+    title: "Sardar Rahman — Computer Science & AI Developer",
     description:
       "Portfolio showcasing AI projects, React applications, and innovative software solutions. CS student at UMass Amherst.",
     images: [
@@ -60,17 +60,17 @@ export const metadata: Metadata = {
         url: "/placeholder.jpg",
         width: 1200,
         height: 630,
-        alt: "Sardar — Portfolio",
+        alt: "Sardar Rahman — Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sardar — Computer Science & AI Developer",
+    title: "Sardar Rahman — Computer Science & AI Developer",
     description:
       "Portfolio showcasing AI projects, React applications, and innovative software solutions. CS student at UMass Amherst.",
     images: ["/placeholder.jpg"],
-    creator: "@sardarra",
+    creator: "@sardarrah",
   },
   robots: {
     index: true,
@@ -123,7 +123,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Sardar",
+    name: "Sardar Rahman",
     jobTitle: "Computer Science Student & AI Developer",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://landing-ecru-phi.vercel.app",
     sameAs: [
