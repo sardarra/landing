@@ -13,14 +13,13 @@ export function Hero() {
 
       <div className="max-w-5xl mx-auto text-center animate-fade-in-up">
         <h1 id="hero-heading" className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Sardar</span>
+          Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Sardar Rahman 👋</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-light text-muted-foreground mb-6">
-          I build intelligent systems with code
+          I build full-stack applications with code
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-          Computer Science student (with a minor in Business) passionate about AI, React, and creating impactful digital experiences. Currently
-          exploring machine learning, full-stack development, and robotics.
+        Computer Science student at UMass Amherst (Honors, 4.0 GPA) with a minor in Business. I care about clean architecture, meaningful UX, and building things that actually ship — from productivity tools to AI-powered web apps.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">

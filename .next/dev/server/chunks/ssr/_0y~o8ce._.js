@@ -125,7 +125,7 @@ function Hero() {
                             "Hi, I'm ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent",
-                                children: "Sardar"
+                                children: "Sardar Rahman 👋"
                             }, void 0, false, {
                                 fileName: "[project]/components/hero.tsx",
                                 lineNumber: 16,
@@ -139,7 +139,7 @@ function Hero() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-2xl md:text-3xl font-light text-muted-foreground mb-6",
-                        children: "I build intelligent systems with code"
+                        children: "I build full-stack applications with code"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
                         lineNumber: 18,
@@ -147,7 +147,7 @@ function Hero() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed",
-                        children: "Computer Science student (with a minor in Business) passionate about AI, React, and creating impactful digital experiences. Currently exploring machine learning, full-stack development, and robotics."
+                        children: "Computer Science student at UMass Amherst (Honors, 4.0 GPA) with a minor in Business. I care about clean architecture, meaningful UX, and building things that actually ship — from productivity tools to AI-powered web apps."
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
                         lineNumber: 21,
@@ -167,12 +167,12 @@ function Hero() {
                             children: "View My Projects"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
-                            lineNumber: 27,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 26,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -182,12 +182,12 @@ function Hero() {
                             className: "size-6 mx-auto text-muted-foreground"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
-                            lineNumber: 40,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 39,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this)
                 ]
