@@ -156,7 +156,7 @@ function Hero() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed",
-                        children: "Computer Science student at UMass Amherst (Honors, 4.0 GPA) with a minor in Business. I care about clean architecture, meaningful UX, and building things that actually ship — from productivity tools to AI-powered web apps."
+                        children: "Computer Science student at UMass Amherst (Honors) with a minor in Business. I care about clean architecture, meaningful UX, and building things that actually ship — from productivity tools to AI-powered web apps."
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
                         lineNumber: 21,
@@ -254,7 +254,7 @@ function About() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg text-muted-foreground leading-relaxed",
                                 children: [
-                                    "I'm a CS student at UMass Amherst, where I'm part of the Honors College and maintaining a 4.0 GPA. My focus is full-stack development and applied AI — I like working across the whole stack, from designing schemas and REST APIs to building polished React interfaces.",
+                                    "I'm a CS student at UMass Amherst, where I'm part of the Honors College. My focus is full-stack development and applied AI — I like working across the whole stack, from designing schemas and REST APIs to building polished React interfaces.",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about.tsx",
                                         lineNumber: 13,

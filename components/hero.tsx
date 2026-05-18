@@ -19,7 +19,7 @@ export function Hero() {
           I build full-stack applications with code
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-        Computer Science student at UMass Amherst (Honors, 4.0 GPA) with a minor in Business. I care about clean architecture, meaningful UX, and building things that actually ship — from productivity tools to AI-powered web apps.
+        Computer Science student at UMass Amherst (Honors) with a minor in Business. I care about clean architecture, meaningful UX, and building things that actually ship — from productivity tools to AI-powered web apps.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
