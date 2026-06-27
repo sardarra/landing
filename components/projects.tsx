@@ -3,14 +3,24 @@
 import { useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
+import { describe } from "node:test"
 
 const projects = [
+  {
+    title: "Shukra",
+    description: "Free agentic AI accounting tool designed for solo entrepreneurs and small businesses, that parses plain English transactions, stores them, and generates financial documents.",
+    tech: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Claude API"],
+    featured: true,
+    link: "https://shukra.vercel.app",
+    github: "https://github.com/sardarra/shukra",
+
+  },
   {
     title: "Enfokado",
     description:
       "An innovative productivity tool that helps you stay focused and productive. Built with React and modern web technologies.",
     tech: ["React", "JavaScript", "Firebase"],
-    featured: true,
+  
     link: "https://enfokado.vercel.app",
     github: "https://github.com/sardarra/Enfokado",
   },
